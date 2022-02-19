@@ -7,10 +7,10 @@ function App() {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch('https://myapi.dev/csr');
+      const res = await fetch('https://mock.dev/item/1');
       const data = await res.json();
       console.log(data);
-    }
+    };
 
     getData();
   }, []);

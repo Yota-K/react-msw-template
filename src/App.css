@@ -1,5 +1,8 @@
 .App {
+  width: 100%;
+  max-width: 768px;
   text-align: center;
+  margin: auto;
 }
 
 .App-logo {
@@ -39,4 +42,8 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.items > li {
+  text-align: left;
 }

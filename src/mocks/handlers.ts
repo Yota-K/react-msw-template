@@ -11,7 +11,7 @@ export const handlers = [
   rest.get('https://mock.dev/items', (req, res, ctx) => {
     return res(
       ctx.status(200),
-      ctx.json({items}),
+      ctx.json(items),
     );
   }),
 
